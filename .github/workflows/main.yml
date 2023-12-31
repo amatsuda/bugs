@@ -15,3 +15,5 @@ jobs:
         with:
           ruby-version: '2.7.8'
           bundler-cache: false
+
+      - run: bundle install
