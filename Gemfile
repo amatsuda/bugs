@@ -2,13 +2,7 @@
 
 source 'https://rubygems.org'
 
-if ENV['RAILS_VERSION'] == 'edge'
-  gem 'rails', git: 'https://github.com/rails/rails.git'
-elsif ENV['RAILS_VERSION']
-  gem 'rails', "~> #{ENV['RAILS_VERSION']}.0"
-else
-  gem 'rails'
-end
+gem 'rails', "6.1.7.6"
 
 gem 'sqlite3'
 
